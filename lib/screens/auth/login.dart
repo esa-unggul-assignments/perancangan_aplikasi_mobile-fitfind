@@ -13,9 +13,10 @@ class LoginScreen extends StatelessWidget {
           children: <Widget>[
             ElevatedButton(
               onPressed: () {
-                Navigator.pushReplacement(
+                Navigator.pushAndRemoveUntil(
                   context,
                   MaterialPageRoute(builder: (context) => NavigatorBar()),
+                  (Route<dynamic> route) => false,
                 );
               },
               child: Text('Login'),

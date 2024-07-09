@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
-import 'login.dart';
+import '../splashscreen/splash.dart';
+// import 'login.dart';
 
 class RegisterScreen extends StatelessWidget {
+  const RegisterScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -11,10 +14,10 @@ class RegisterScreen extends StatelessWidget {
           onPressed: () {
             Navigator.pushReplacement(
               context,
-              MaterialPageRoute(builder: (context) => LoginScreen()),
+              MaterialPageRoute(builder: (context) => SplashScreen()),
             );
           },
-          child: Text('Register'),
+          child: const Text('Register'),
         ),
       ),
     );
