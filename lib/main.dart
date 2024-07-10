@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import "./screens/splashscreen/splash.dart";
+import "screens/auth/landing.dart";
 
 void main() {
   runApp(const MainApp());
@@ -15,7 +15,7 @@ class MainApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.lime,
       ),
-      home: SplashScreen(),
+      home: LandingScreen(),
     );
   }
 }
