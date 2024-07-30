@@ -11,3 +11,5 @@ Aplikasi Mobile Pencarian Tempat dan Layanan Fitness Dengan Location Based Servi
 
 [Link Software Requirement Specification](https://docs.google.com/document/d/1OsaorEn6aEEJCvjJOzZ1dYWOOejahBhm2RTzbl23t9M/edit?usp=sharing)
 
+[Link Figma](https://www.figma.com/design/quQKRJg3Oglg8xVXj7C9xM/PAM-FitFind?node-id=44-2322&t=RQfkvbHxkt3fZCMM-1)
+
